@@ -27,7 +27,7 @@ namespace snake
             y = p.y;
             sym = p.sym;
         }
-        public void Move(int offset,Direction direction)
+        public void Move(int offset, Direction direction)
         {
             if (direction == Direction.RIGHT)
             {
@@ -37,7 +37,7 @@ namespace snake
             {
                 x = x - offset;
             }
-            else if(direction == Direction.UP)
+            else if (direction == Direction.UP)
             {
                 y = y + offset;
             }
